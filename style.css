@@ -9,3 +9,23 @@ ul {
 li{
     margin-left:15px;
 }
+
+/* center all conent within bio section */
+.container{
+    text-align: center;
+}
+
+img{
+    margin-top:20px;
+}
+
+hr{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+footer{
+    background-color:lightskyblue;
+    text-align:center;
+    width:100%;
+}
