@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alejandra's Portfolio</title>
+    <!-- bootstrap css link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href='style.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <!-- navigation  -->
+        <!-- sticky top forces navbar to stay at top of screen even when scrolling down -->
+    <nav class='navbar navbar-expand-md navbar-light bg-light sticky-top'>
+        <!-- fluid=takes up entire screen -->
+        <div class='container-fluid'>
+            <a class='navbar-brand' href='#'>Alejandra Reyes</a>
+            <div class='dropdown'>
+                <!-- toggler will only appear when screen size is reduced -->
+            <button class='navbar-toggler' type='button' data-toggle='collapse' 
+            data-target='#navbarResponsive'>
+            <!-- creates hamburger -->
+                <span class='navbar-toggler-icon'>
+                    
+                </span>
+            </button>
+            <div class='collapse navbar-collapse' id='navResp'>
+            <!-- ml auto pushes navigation to the right instead of middle -->
+                <ul class='navbar-nav ml-auto'>
+                    <!-- usng active class to highlight which link we are on -->
+                    <li class='nav-item active'>
+                        <a class='link'href="index.html">About</a>
+                    </li>
+                    <li class='nav-item '>
+                        <a class='link'href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='link'href="contact.html">Connect</a>
+                    </li>
+                </ul>
+            </div>    
+            <div class="dropdown-content">
+                
+            
+            </div>
+            </div>
+        </div>
+    </nav>
+    
+</body>
+</html>

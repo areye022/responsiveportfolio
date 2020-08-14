@@ -1,0 +1,10 @@
+/* to remove bullet points on navbar */
+ul {
+    list-style-type: none;
+    margin-right: 0px;
+    padding: 0px;
+}
+
+li{
+    margin-left:15px;
+}
