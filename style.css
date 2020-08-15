@@ -13,20 +13,26 @@ li{
 /* center all conent within bio section */
 .container{
     text-align: center;
+    margin-bottom:auto;
 }
-
+/* added margin above images */
 img{
     margin-top:20px;
 }
-
+/* minor adjustments to line break */
 hr{
     margin-top: 5px;
     margin-bottom: 15px;
 }
-
+/* adjusting footer to stay at the bottom of for */
 footer{
     background-color:lightskyblue;
     text-align:center;
     width:100%;
     clear:both;
+    margin-bottom: 0px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
 }
