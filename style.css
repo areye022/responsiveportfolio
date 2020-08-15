@@ -24,7 +24,7 @@ hr{
     margin-top: 5px;
     margin-bottom: 15px;
 }
-/* adjusting footer to stay at the bottom of for */
+/* adjusting footer to stay at the bottom */
 footer{
     background-color:lightskyblue;
     text-align:center;
@@ -35,4 +35,8 @@ footer{
     left: 0;
     bottom: 0;
     overflow: hidden;
+}
+/* specifically for index.html footer */
+.footer{
+    position: relative;
 }
