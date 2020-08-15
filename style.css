@@ -1,3 +1,8 @@
+html{
+    min-height: 100%;
+    position: relative;
+}
+
 /* to remove bullet points on navbar */
 ul {
     list-style-type: none;
@@ -38,5 +43,5 @@ footer{
 }
 /* specifically for index.html footer */
 .footer{
-    position: relative;
+    position: static;
 }
