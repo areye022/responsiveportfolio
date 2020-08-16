@@ -8,45 +8,49 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href='style.css' rel='stylesheet' type='text/css'>
 </head>
+
 <body>
     <!-- navigation  -->
         <!-- sticky top forces navbar to stay at top of screen even when scrolling down -->
     <nav class='navbar navbar-expand-md navbar-light bg-light sticky-top'>
         <!-- fluid=takes up entire screen -->
         <div class='container-fluid'>
-            <a class='navbar-brand' href='#'>Alejandra Reyes</a>
+            <a href='#'>Alejandra Reyes</a>
             <!-- ml auto pushes navigation to the right instead of middle -->
                 <ul class='navbar-nav ml-auto'>
-                    <!-- usng active class to highlight which link we are on -->
-                    <li class='nav-item active'>
-                        <a class='link' href='index.html'>Home</a>
+                    <li class='item '>
+                        <a href='index.html'>Home</a>
                     </li>
-                    <li class='nav-item '>
-                        <a class='link' href='portfolio.html'>Portfolio</a>
+                    <li class='item '>
+                        <a href='portfolio.html'>Portfolio</a>
                     </li>
-                    <li class='nav-item'>
-                        <a class='link' href='contact.html'>Connect</a>
+                    <li class='item'>
+                        <a href='contact.html'>Connect</a>
                     </li>
-                    <li class="nav-item dropdown">
                 </ul>
             </div>    
-            </div>
-        </div>
     </nav>
 
     <!-- bio section -->
-    <div class='container'>
-        <div class='row image'>
+    <section class='container'>
+        <div>
             <!-- full grid -->
-            <div class='col-12'>
+            <div class="row">
+            <div class='col-md-12'>
                 <img src='Profile Picture.jpg' alt='image of alejandra smiling' height="250px" width='200'>
-            </div>    
-            <div class='col-12'>
+            </div>  
+            </div>
+            
+            <div class="row">
+            <div class='col-md-12'>
                 <!-- display-4 to display a third of grid -->
                 <h1 class='display-4'>Alejandra Reyes</h1>
                 <hr>
             </div>
-            <div class='col-12'>
+            </div>
+
+            <div class='row'>
+            <div class='col-md-12'>
                 <p>Hello! Welcome to my portfolio website. My name is Alejandra Reyes, and I am currently
                     a student at the UCR Extension's Coding Bootcamp. I graduated with my B.A. in Business
                     Economics from the University of California, Riverside in 2017. I decided to switch career
@@ -65,8 +69,10 @@
                     to learn it in the future. 
                 </p>
             </div>
+            </div>
         </div>
-    </div>
+    </section>
+
     <!-- footer section -->
 <footer class=footer >
     <!-- container fluid to take up full screen -->
@@ -74,8 +80,5 @@
         <p>Fontana, Ca 92337</p>
     </div> 
 </footer>
-
 </body>
-
-
 </html>

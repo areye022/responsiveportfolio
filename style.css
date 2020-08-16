@@ -3,6 +3,12 @@ html{
     position: relative;
 }
 
+a{
+    font-size: x-large;
+    font-weight:bold;
+    
+}
+
 /* to remove bullet points on navbar */
 ul {
     list-style-type: none;
@@ -15,20 +21,23 @@ li{
     margin-left:15px;
 }
 
-/* center all conent within bio section */
+/* center all conent within each section */
 .container{
     text-align: center;
     margin-bottom:auto;
 }
+
 /* added margin above images */
 img{
     margin-top:20px;
 }
-/* minor adjustments to line break */
+
+/*  line break */
 hr{
     margin-top: 5px;
     margin-bottom: 15px;
 }
+
 /* adjusting footer to stay at the bottom */
 footer{
     background-color:lightskyblue;
@@ -41,11 +50,45 @@ footer{
     bottom: 0;
     overflow: hidden;
 }
-/* specifically for index.html footer */
+/* specifically for index.html footer, b/c prev position was not functioning correctly*/
 .footer{
     position: static;
 }
 
+/* adjusting padding for content in the footer */
 .location{
     padding-top:10px;
+}
+
+/* ensuring images are responsive and don't overlap when screen size changes */
+@media screen and (max-width:400px) {
+        .responsive{
+        width: 100%;
+        height:auto;
+        margin:5px;
+    }
+/* adjust navbar fontsize */
+    a{
+        font-size: small;
+        }
+}
+/* responsive image */
+@media screen and (max-width:768px) {
+    .responsive{
+        width: 100%;
+        height:auto;
+        margin:5px;
+    }
+/* adjust navbar fontsize */
+    a{
+        font-size: medium;
+        }
+}
+/* responsive image */
+@media screen and (max-width:992px) {
+    .responsive{
+        width: 100%;
+        height:auto;
+        margin:5px;
+    }
 }
