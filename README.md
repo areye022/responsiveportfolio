@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Responsive Portfolio
 
 ### Deployed Application 
@@ -16,3 +17,11 @@ When you open the portfolio, the main page gives a brief description of Alejandr
 * Utilizes Bootstrap features such as jumbotron, containers, etc.   
 * Utilized unsplash for project image holders.
 * Provides links to LinkedIn, Github, and stackoverflow
+=======
+# responsiveportfolio
+My responsive portfolio is practice for creating a responsive portfolio using bootstrap as a primary tool. We were to ensure it is responive for multiple screen sizes. 
+
+Requred:
+  Navbar, Responsive layout, and Responsive images
+  
+>>>>>>> 8c15e37287a0cab717e9b7c7c58f77c8b04bd9e5
