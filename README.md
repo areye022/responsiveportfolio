@@ -16,3 +16,4 @@ When you open the portfolio, the main page gives a brief description of Alejandr
 * Utilizes Bootstrap features such as jumbotron, containers, etc.   
 * Utilized unsplash for project image holders.
 * Provides links to LinkedIn, Github, and stackoverflow
+

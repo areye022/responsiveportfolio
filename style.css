@@ -61,6 +61,10 @@ footer{
     padding-top:10px;
 }
 
+p{
+    text-align: center;
+}
+
 /* ensuring images are responsive and don't overlap when screen size changes */
 @media screen and (max-width:400px) {
         .responsive{
